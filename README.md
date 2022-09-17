@@ -9,7 +9,7 @@
 
 
 theme:<h6>
-I used the  inspector and div console to abstract the asset (colours, spacing, fonts..)
+I used the  inspector and div console to extract the asset  (colours, spacing, fonts..) from the website.
  
 -font family: 
  sans-serif 
