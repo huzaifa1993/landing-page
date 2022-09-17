@@ -18,7 +18,7 @@ font family:
 -body content font size: 
   80px , 20px
 
--colors:
+-colors:<br>
   primary: #fcfcfc, #c2c8cc<br>
   secondary:#9da2a6, #f5f9fc, #57abff <br>
   
