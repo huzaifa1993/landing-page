@@ -6,7 +6,7 @@ our amazing website will be your personal guide toward professionality in this f
 we provide a smooth way to understand and write your first code confidently. </h6>
 
 theme:
-<h6>I used the  inspector and div console to extract the asset  (colours, spacing, fonts..) from the website.<br>
+<h6>I used the  inspector and div console to extract the asset  (colours, spacing, fonts..) from the website.<br><br>
  
 -font family:  sans-serif <br>
 
