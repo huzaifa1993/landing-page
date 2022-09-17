@@ -11,8 +11,8 @@ theme:
 -font family:  sans-serif <br>
 
 -font size:  <br>
-  nav :14px <br>
-  body content font size:  80px , 20px <br>
+  navigation bar :14px <br>
+  body content :  80px , 20px <br>
 
 -colors:<br>
   primary:  #fcfcfc,  #c2c8cc<br>
@@ -23,8 +23,8 @@ theme:
   navigation elements:  3px / 10px <br>
 
 -sign up ,log in buttons:  <br>
-  padding;8px <br>
-  border;0,992 <br>
+  padding; 8px <br>
+  border; 0 , 992 <br>
 
 -body content:  88px / 40px <br>
 
