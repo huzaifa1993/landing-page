@@ -1,11 +1,11 @@
 # landing-page<br>
-<h6>why our website:<br><h6>
+<h6>why our website:<br></h6>
 
 Do you want to code but you don't how to start your journey,<br> 
 our amazing website will be your personal guide toward professionality in this field. <br>
 we provide a smooth way to understand and write your first code confidently. 
 
-<h6>theme:<h6>
+<h6>theme:</h6>
 I used the  inspector and div console to extract the asset  (colours, spacing, fonts..) from the website.
  
 -font family: 
