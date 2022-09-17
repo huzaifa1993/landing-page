@@ -8,7 +8,7 @@
 
 
 
-theme:<h2>
+theme:<h6>
 font family: 
  sans-serif 
 
