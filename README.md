@@ -19,11 +19,9 @@ font family:
   80px , 20px
 
 -colors:
-  #fcfcfc:primary
-  #c2c8cc:primary
-  #9da2a6:secondary
-  #f5f9fc:secondary
-  #57abff:secondry
+  primary: #fcfcfc, #c2c8cc<br>
+  secondary:#9da2a6, #f5f9fc, #57abff <br>
+  
 
 -navigation bar padding:
   left;10px / right; 15px
