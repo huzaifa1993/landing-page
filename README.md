@@ -1,6 +1,6 @@
 # landing-page<br>
 
-Do you want to code but you don't how to start your journey,<br> our amazing website will be your personal guide toward professionality in this field. we provide a smooth way to understand and write your first code confidently. 
+Do you want to code but you don't how to start your journey,<br> our amazing website will be your personal guide toward professionality in this field. <br>we provide a smooth way to understand and write your first code confidently. 
 
 
 
