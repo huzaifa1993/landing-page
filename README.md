@@ -9,6 +9,8 @@
 
 
 theme:<h6>
+I used the  inspector and div console to abstract the asset (colours, spacing, fonts..)
+ 
 -font family: 
  sans-serif 
 
