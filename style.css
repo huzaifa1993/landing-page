@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0e1525;
+    font-family: sans-serif;
+}
+
+svg{
+    height:28;
+    width:93px;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left:10px ;
+    padding-right:15px ;
+    height: 60px;
+    color:  #f5f9fc;  
+}
+
+a{
+    color:  #f5f9fc;
+    text-decoration: none;
+    padding: 10px;
+}
+
+button{
+    border-radius:8px;
+    height: 35px;
+}
+
+
+
+
+
+
+
+
+    
+
