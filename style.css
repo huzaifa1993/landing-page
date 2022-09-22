@@ -1,99 +1,118 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #0e1525;
-    font-family: sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0e1525;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
-svg{
-    height:28;
-    width:93px;
-}
-nav{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    font-size: 14px;
+header {
+  border-bottom: 1px solid #1c2333;
 }
 
-.nav-container{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    padding-left:10px ;
-    padding-right:15px ;
-    height: 60px;
-    color:  #f5f9fc;  
+svg {
+  height: 28;
+  width: 93px;
 }
 
-.pages-container{
-    margin-left: 15px;
+nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 14px;
 }
 
-a{
-    color:  #f5f9fc;
-    text-decoration: none;
-    padding: 10px;
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 15px;
+  height: 60px;
+  color: #f5f9fc;
 }
 
-.signup-btn ,.login-btn {
-    border-radius:8px;
-    height: 30px;
-    width: 65px;
-    font-size: 14px;
+a:hover {
+  color: #0079f2;
 }
 
-.signup-btn{
-    background-color: #0053a6;
-    color:#f5f9fc ;
-    border: none;
+.pages-container {
+  margin-left: 15px;
 }
 
-.login-btn{
-    background-color: #0e1525;
-    color:#f5f9fc ;
-    border-color:#5f677a ;
-    width: 60px;  
+a {
+  color: #f5f9fc;
+  text-decoration: none;
+  padding: 10px;
 }
 
-.content-container{
-    display: flex;
-   justify-content: center;
-    color:#f5f9fc;
-    text-align: center;
-    margin-top: 50px;
-
+.signup-btn,
+.login-btn {
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
 }
 
-h1{
-    font-size: 80px;
+.signup-btn {
+  background-color: #0053a6;
+  color: #f5f9fc;
+  height: 32px;
+  width: 64px;
 }
 
-h2{
-    color: #c2c8cc;
-    font-size: 24px;
-    
-
+.signup-btn:hover {
+  border-color: #57abff;
+  border-width: 1px;
+  transition-duration: 120ms;
 }
 
-.start-btn{
-    background-color: #0079F2;
-    color: #f5f9fc;
-    border-radius: 5px;
-    height: 55px;
-    width:135px;
-    border: none;
-    font-size: 15PX;
+.login-btn {
+  background-color: #0e1525;
+  color: #f5f9fc;
+  border-color: #5f677a;
+  width: 60px;
+  height: 32px;
+  width: 55px;
 }
 
+.login-btn:hover {
+  background-color: #2b3245;
+  transition-duration: 120ms;
+}
 
+.content-container {
+  display: flex;
+  justify-content: center;
+  color: #f5f9fc;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 500px;
+  text-shadow: 2px 2px 60px #0079f2;
+}
 
+h1 {
+  font-size: 80px;
+}
 
+h2 {
+  color: #c2c8cc;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.25em;
+  max-width: 720px;
+}
 
+.start-btn {
+  background-color: #0079f2;
+  color: #f5f9fc;
+  border-radius: 5px;
+  height: 54px;
+  width: 146px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 32px;
+}
 
-
-
-
-
-    
-
+.start-btn:hover {
+  background-color: #57abff;
+}
