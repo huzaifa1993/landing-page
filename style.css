@@ -116,8 +116,27 @@ h2 {
 }
 
 .start-btn:hover {
-  background-color: #57abff;
+  background-color: #57abff
 }
+
+@media only screen and (max-width: 600px) {
+
+.content-wrapper{
+  padding: 32px;
+  
+}
+  h1{
+    font-size: 56px;
+    margin: 0;
+  }
+
+  h2{
+    padding-top: 32px;
+    margin-top: 0;
+  }
+}
+
+
 
 
 
