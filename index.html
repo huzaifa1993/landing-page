@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>landing-page</title>
     <link href="./style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-
   <body>
     <header>
       <div class="nav-container">
-        <nav>
+        <nav class="dc-nav">
           <div class="tabs-container">
             <img src="asset/images/logo.svg" class="logo" alt="logo-img" />
             <a href="#">Features</a>
@@ -27,11 +26,35 @@
             <button class="login-btn">Log in</button>
           </div>
         </nav>
+        <div class="mobile-container mobile-nav">
+
+          <!-- Top Navigation Menu -->
+          <div class="topnav">
+            <img src="asset/images/logo.svg" class="logo active" alt="logo-img" href="#home"/>
+            <div id="myLinks">
+              <a href="#news">News</a>
+              <a href="#contact">Contact</a>
+              <a href="#about">About</a>
+              <a href="#">Features</a>
+              <a href="#">Blog</a>
+              <a href="#">Pricing</a>
+              <a href="#">Teams Pro</a>
+              <a href="#">Teams for Education</a>
+              <a href="#">Careers</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          
+          
+          <!-- End smartphone / tablet look -->
+          </div>
       </div>
     </header>
     <main>
       <div class="content-container">
-        <div>
+        <div >
           <h1>
             Code, create, and <br />
             learn together
@@ -56,6 +79,6 @@
       </div>
     </main>
     <script src="./index.js"></script>
+    
   </body>
-
 </html>
