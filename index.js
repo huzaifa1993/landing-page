@@ -1,8 +1,8 @@
 function toggleNav() {
-    var sin = document.getElementById("myLinks");
-    if (sin.style.display === "block") {
-      sin.style.display = "none";
+    var x= document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
     } else {
-      sin.style.display = "block";
+      x.style.display = "block";
     }
   }
