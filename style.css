@@ -9,7 +9,7 @@ header {
   border-bottom: 1px solid #1c2333;
 }
 
-nav {
+.dc-nav {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -17,9 +17,13 @@ nav {
   height: 60px;
   color: #f5f9fc;
   font-size: 16px;
-  width:98%;
+  width: 98%;
   margin: 0 auto;
   font-size: 16px;
+}
+
+.mobile-nav {
+  display: none;
 }
 
 .tabs-container {
@@ -42,10 +46,10 @@ a:hover {
   color: #0079f2;
 }
 
-.signup-login-container{
+.signup-login-container {
   display: flex;
   width: 10%;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .signup-btn,
@@ -62,14 +66,14 @@ a:hover {
 
 .signup-btn:hover {
   border: 1px solid;
-  border-color:1px solid 57abff;
+  border-color: 1px solid 57abff;
   transition-duration: 120ms;
 }
 
 .login-btn {
   background-color: #0e1525;
   color: #f5f9fc;
-    border: 1px solid rgb(114, 112, 112);
+  border: 1px solid rgb(114, 112, 112);
   width: 60px;
   height: 32px;
 }
@@ -115,4 +119,99 @@ h2 {
 
 .start-btn:hover {
   background-color: #57abff;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+  background-color: #1c2333;
+  width: 180px;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  font-size: 16px;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 30px;
+}
+
+.topnav a:hover {
+  color: #fff;
+}
+
+.active {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 56px;
+    margin-top: 0;
+  }
+
+  .content-container {
+    width: 311px;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .dc-nav {
+    display: none;
+  }
+
+  header {
+    height: 60px;
+  }
+
+  main {
+    margin-left: 32px;
+  }
+
+  .topnav {
+    padding-left: 8px;
+    padding-top: 15px;
+  }
+
+  .signup-login-container {
+    flex-direction: column;
+  }
+
+  .signup-btn,
+  .login-btn {
+    width: 160px;
+    height: 30px;
+    margin-left: 8px;
+  }
+
+  .signup-btn {
+    margin-top: 15px;
+  }
+
+  .login-btn {
+    margin-top: 10px;
+  }
 }
