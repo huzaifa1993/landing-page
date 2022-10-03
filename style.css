@@ -137,7 +137,7 @@ h2 {
 .topnav #myLinks {
   display: none;
   background-color: #1c2333;
-  width: 200px;
+  width: 180px;
 }
 
 .topnav a {
@@ -146,7 +146,7 @@ h2 {
   text-decoration: none;
   font-size: 17px;
   display: block;
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .topnav a.icon {
@@ -154,6 +154,7 @@ h2 {
   position: absolute;
   right: 0;
   top: 0;
+  font-size: 30px;
 }
 
 .topnav a:hover {
@@ -197,5 +198,20 @@ h2 {
 
   .signup-login-container {
     flex-direction: column;
+  }
+
+  .signup-btn,
+  .login-btn {
+    width: 160px;
+    height: 30px;
+    margin-left: 8px;
+  }
+
+  .signup-btn {
+    margin-top: 15px;
+  }
+
+  .login-btn {
+    margin-top: 10px;
   }
 }
